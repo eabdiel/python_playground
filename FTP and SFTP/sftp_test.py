@@ -17,3 +17,4 @@ with sftp.Connection(host=myHostname,
     directory_structure = sftp.listdir_attr()
     for attr in directory_structure:
         print(attr.filename, attr)
+#----End | https://github.com/eabdiel
