@@ -1,5 +1,5 @@
 # python_playground
-Uncategorized Python Projects (Working Examples for reference)
+Uncategorized Python Projects--
 
 MapFind - Script to call and execute a google map addres search (takes address as input), the script can be executed with a batch file to call it from the windows search bar on the task bar "Mapfind address"
 
