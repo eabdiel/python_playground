@@ -10,3 +10,5 @@ Russian Peasant Algorithm - Simulation of running 3 'bots' at the same time to p
 json consumption and entry prediction - script that takes a word-dictionary json dataset and allows for manual search of its entries (bonus using get_close_matches prediction to provide a 'suggested' entry when someone tries to enter a word that doesn't exist in the dataset - example; if you enter treee, it will suggest "Tree")
 
 ui_to_sql_test - UI test project, fully working Book registry program that uses Tkinder for the design, and SQL for data storage.
+
+FTP and SFTP - Different File Transfer methods, SFTP uses pysftp and FTP uses ftplib
