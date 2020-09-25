@@ -13,4 +13,4 @@ ui_to_sql_test - UI test project, fully working Book registry program that uses 
 
 FTP and SFTP - Different File Transfer methods, SFTP uses pysftp and FTP uses ftplib
 
-Volcano_Map - Program using pandas and folium to generate an html map that has a layer based on a CSV file with volcano data - each volcano will have its own circle marker on the map, an HTML popup with information from the CSV and a link to search for information about each particular entry inside the popup.  The program also consumes a GeoJson file containing polygons of all countries to highlight countries and color-code areas based on population.
+Volcano_Map - 'Classic' folium based Map Program that generates an html map that has a layer based on a CSV file with volcano data - each volcano will have its own circle marker on the map, an HTML popup with information from the CSV and a link to search for information about each particular entry inside the popup.  The program also consumes a GeoJson file containing polygons of all countries to highlight countries and color-code areas based on population.
