@@ -1,7 +1,9 @@
+#testing ftplib to connect to an ftp server - 
+# in this public file I took out server, user and password for obvious reasons - just replace with the valid strings
 from ftplib import FTP
 import os
 
-def ftpDownloader(filename,host="ftp.pyclass.com",user="student@pyclass.com",passwd="student123"):
+def ftpDownloader(filename,host="ftp.server.com",user="userid",passwd="mypassword"):
 	ftp=FTP(host)
 	ftp.login(user,passwd)
 	ftp.cwd("Data")
@@ -9,4 +11,5 @@ def ftpDownloader(filename,host="ftp.pyclass.com",user="student@pyclass.com",pas
 	with open(filename, 'wb') as file:
 		ftp.retrbinary('RETR %s' % filename, file.write)
 
-ftpDownloader("isd-lite-format.pdf")
+ftpDownloader("filetodownload.zip")
+# END | github.com/eabdiel/
