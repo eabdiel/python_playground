@@ -1,3 +1,5 @@
+#Personal project - RPA script that visits the nintendo website, enters the purchase history page, and parses all game & prices into an excel file page by page
+
 import rpa as r
 import time as t
 import openpyxl
@@ -80,3 +82,4 @@ for link in range(1, links + 1):
 r.close()
 
 wb.save('purchase_history.xlsx')
+#END | https://github.com/eabdiel/
