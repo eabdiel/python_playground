@@ -1,3 +1,7 @@
+#My take on the RPA Challenge -
+#       rpa.download doesn't work behind a proxy so I added an optional 
+#       'requests' code in case the bot needs to 'download' something while behind a proxy
+
 
 #--- Modules
 import rpa as r
@@ -32,7 +36,7 @@ r.download('http://rpachallenge.com/assets/downloadFiles/challenge.xlsx')
 #output.close()  #closes and saves the file
 #---- at this point the file should be ready to be read
 
-#if neither the download or the requests.get work - try using rpa.click() to click on the css object to download
+#if neither the download or the requests.get work - using rpa.click() to click on the css object to download works but takes extra steps
 
 
 # load and prepare all data to string with pandas
@@ -42,7 +46,7 @@ df['Phone Number'] = df['Phone Number'].astype(str)
 # timer starts after running this step
 r.click('//*[text()="Start"]')
 
-# loop through and fill in all fields
+# iterate and populate each text box on the page
 for i in range(len(df.axes[0])):
     r.type('//*[@ng-reflect-name="labelFirstName"]', df['First Name'][i])
     r.type('//*[@ng-reflect-name="labelLastName"]', df['Last Name '][i])
