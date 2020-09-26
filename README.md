@@ -3,7 +3,7 @@ Uncategorized Python Projects--
 
 MapFind - Script to call and execute a google map addres search (takes address as input), the script can be executed with a batch file to call it from the windows search bar on the task bar "Mapfind address"
 
-RPA - Some of my automation scripts, most will need the RPA module
+RPA - Some of my automation scripts, most will need the RPA module (TagUI)
 
 Russian Peasant Algorithm - Simulation of running 3 'bots' at the same time to perform a russian peasant algorithm test (based on classic case study), the 'bots' will take turns executing each step - if one's busy, the next will take over.  
 
