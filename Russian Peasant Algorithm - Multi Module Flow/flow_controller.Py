@@ -54,4 +54,4 @@ if __name__ == '__main__':
         print(active_bot.lastMultipliedHandler())
         print("")
 
-# End of code - github.com/eabdiel
+# End of code - https://github.com/eabdiel
