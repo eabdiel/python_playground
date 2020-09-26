@@ -107,3 +107,5 @@ b6=Button(window,text="Close", width=12, command=window.destroy)
 b6.grid(row=7,column=3)
 
 window.mainloop()
+
+#END | https://github.com/eabdiel/ | 
