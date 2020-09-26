@@ -5,7 +5,7 @@ MapFind - Script to call and execute a google map addres search (takes address a
 
 RPA - Some of my automation scripts, most will need the RPA module
 
-Russian Peasant Algorithm - Simulation of running 3 'bots' at the same time to perform a russian peasant algorithm test, the 'bots' will take turns executing each step - if one's busy, the next will take over.
+Russian Peasant Algorithm - Simulation of running 3 'bots' at the same time to perform a russian peasant algorithm test (based on classic case study), the 'bots' will take turns executing each step - if one's busy, the next will take over.  
 
 json consumption and entry prediction - script that takes a word-dictionary json dataset and allows for manual search of its entries (bonus using get_close_matches prediction to provide a 'suggested' entry when someone tries to enter a word that doesn't exist in the dataset - example; if you enter treee, it will suggest "Tree")
 
