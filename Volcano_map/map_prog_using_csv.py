@@ -1,4 +1,4 @@
-# map program that pins volcanoes based on csv file
+# Attempt at the classic folium "volcanoes map" program that pins volcanoes based on csv file
 # and splits areas in map using geojson map that has lists of polygons
 
 import folium
@@ -77,4 +77,3 @@ map.save("Map.html")
 print("File saved.. see .py file directory for Map.html file")
 
 #https://github.com/eabdiel
-# Case study from https://www.udemy.com/share/101Wa0AEMZdllWTHg=/
