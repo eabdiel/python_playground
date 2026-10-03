@@ -1,4 +1,11 @@
 # python_playground
+
+Python practice projects covering automation, Folium maps, file transfer, JSON lookup, and desktop database interfaces.
+
+A project of **[ProgreTech LLC](https://progretech.com)**, owned and maintained by **Ed Rodriguez**. Third-party components and contributions retain their respective ownership and notices.
+
+[Project website](https://progretech.com) · [Report an issue](https://github.com/eabdiel/python_playground/issues) · [Contribute](CONTRIBUTING.md)
+
 Uncategorized Python Projects--
 
 MapFind - Script to call and execute a google map addres search (takes address as input), the script can be executed with a batch file to call it from the windows search bar on the task bar "Mapfind address"
@@ -14,3 +21,17 @@ ui_to_sql_test - UI test project, fully working Book registry program that uses 
 FTP and SFTP - Different File Transfer methods, SFTP uses pysftp and FTP uses ftplib
 
 Volcano_Map - 'Classic' folium based Map Program that generates an html map that has a layer based on a CSV file with volcano data - each volcano will have its own circle marker on the map, an HTML popup with information from the CSV and a link to search for information about each particular entry inside the popup.  The program also consumes a GeoJson file containing polygons of all countries to highlight countries and color-code areas based on population.
+
+## Collaboration
+
+Documentation corrections, small reproducible examples, and setup improvements are useful ways to help. Read [CONTRIBUTING.md](CONTRIBUTING.md) for issue reports, proposed changes, and attribution requirements.
+
+## License and reuse
+
+No complete root license was found in this repository. Public availability alone does not grant a general right to reuse or redistribute the code. The maintainer needs to clarify the intended license before code contributions or redistribution.
+
+## More from ProgreTech
+
+
+
+Discover the wider portfolio at [progretech.com](https://progretech.com). These links identify related products; they do not imply a bundled integration or shared license.
